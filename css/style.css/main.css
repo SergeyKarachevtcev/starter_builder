@@ -109,22 +109,6 @@ legend {
 
 /* reset */
 /* imports */
-.header {
-  font-size: 16px;
-  height: 200px;
-  background-color: red;
-}
-.header .nav {
-  font-size: 22px;
-}
-
-/* footer */
-.footer {
-  height: 300px;
-  background-color: blue;
-  color: red;
-}
-
 /* sticky footer */
 html {
   height: 100%;
@@ -140,4 +124,76 @@ body {
   margin-top: auto;
 }
 
-/* sticky footer *//*# sourceMappingURL=main.css.map */
+/* sticky footer */
+/* body font , color */
+body {
+  color: var(--text-color);
+  font-family: var(--Gilroy-Medium);
+  font-size: 16px;
+  line-height: 185%;
+}
+
+:root {
+  --text-color: #1e1e1e;
+  --accent: #f6b76f;
+  --white-text-color: #ffffff;
+  --text-muted: #8d8d8d;
+  --card-text-blue: #0d1b39;
+  --footer-bg: #2d2f33;
+  /* fonts */
+  --Gilroy-Medium: "Gilroy-Medium", sans-serif;
+  --Gilroy-Regular: "Gilroy-Regular", sans-serif;
+  --Gilroy-Bold: "Gilroy-Bold", sans-serif;
+  --Inter-regular: "Inter", sans-serif;
+  --Inter-semi-bold: "Inter-semi-bold", sans-serif;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(/fonts/gilroy/gilroy-medium.woff), url(/fonts/gilroy/gilroy-medium.woff2);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(/fonts/gilroy/gilroy-regular.woff), url(/fonts/gilroy/gilroy-regular.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(/fonts/gilroy/gilroy-bold.woff), url(/fonts/gilroy/gilroy-bold.woff2);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/inter/InterRegular.woff), url(/fonts/inter/InterRegular.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-semi-bold";
+  src: url(/fonts/inter/InterSemiBold.woff), url(/fonts/inter/InterSemiBold.woff2);
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+.header {
+  font-size: 16px;
+  height: 200px;
+  background-color: red;
+}
+.header .nav {
+  font-size: 22px;
+}
+
+/* footer */
+.footer {
+  height: 300px;
+  background-color: blue;
+}/*# sourceMappingURL=main.css.map */
