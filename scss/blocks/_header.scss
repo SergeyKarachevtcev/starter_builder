@@ -1,8 +1,11 @@
 .header {
-	font-size: 16px;
-	.nav {
-		font-size: 22px;
-	}
-	height: 200px;
-	background-color: red;
+    background-color: var(--footer-bg);
+    background-image: url(/img/main/main-bg.jpg);
+    background-size: cover;
+    aspect-ratio: 1440 / 1084;
+    margin-bottom: 120px;
+    color: var(--white-text-color);
+    a {
+        color: var(--white-text-color);
+    }
 }

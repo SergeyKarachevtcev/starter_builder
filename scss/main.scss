@@ -5,5 +5,9 @@
 /* imports */
 @import './base/base';
 @import './vars/vars';
+/* block */
 @import './blocks/header.scss';
+@import './blocks/nav';
 @import './blocks/footer.scss';
+@import './blocks/form';
+@import './blocks/advantages';
