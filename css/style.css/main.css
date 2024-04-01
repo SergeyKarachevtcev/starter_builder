@@ -353,7 +353,8 @@ body {
 }
 
 .advantages-block__link {
-  display: flex;
+  width: 50%;
+  display: inline-flex;
   -moz-column-gap: 15px;
        column-gap: 15px;
   font-weight: 400;

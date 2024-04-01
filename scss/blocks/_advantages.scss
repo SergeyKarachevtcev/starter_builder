@@ -35,7 +35,8 @@
     font-family: var(--Gilroy-Regular);
 }
 .advantages-block__link {
-    display: flex;
+    width: 50%;
+    display: inline-flex;
     column-gap: 15px;
     font-weight: 400;
     font-size: 14px;
