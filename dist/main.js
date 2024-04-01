@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("firstModilesgaggeg")})();
+(()=>{"use strict";console.log("first console log")})();

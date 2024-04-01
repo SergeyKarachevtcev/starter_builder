@@ -1,3 +1,3 @@
-import firstModile from "./modules/firstModul";
+import firstModile from './modules/firstModul';
 
 firstModile();

@@ -1,5 +1,5 @@
 const firstModile = () => {
-    console.log('firstModilesgaggeg');
+    console.log('first console log');
 };
 
 export default firstModile;
