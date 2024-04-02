@@ -1,3 +1,1 @@
-import firstModile from './modules/firstModul';
-
-firstModile();
+import './modules/swipr';

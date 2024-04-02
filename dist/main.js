@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("first console log")})();
+(()=>{"use strict";new Swiper(".swiper",{slidesPerView:4,spaceBetween:42,loop:!0,navigation:{nextEl:"#sliberNext",prevEl:"#sliderPrew"}})})();
