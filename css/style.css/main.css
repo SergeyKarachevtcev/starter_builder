@@ -245,8 +245,45 @@ body {
 
 /* footer */
 .footer {
-  height: 300px;
-  background-color: blue;
+  padding-top: 118px;
+  padding-bottom: 55px;
+  background-color: var(--footer-bg);
+  color: var(--white-text-color);
+}
+
+.footer_conteiner {
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  display: flex;
+}
+
+.footer-section-collumn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.footer-section-collumn_content {
+  margin-right: 140px;
+  font-family: var(--Gilroy-Medium);
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.footer-section-collumn__title {
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+}
+
+.footer-section-collumn_content__wrapper {
+  max-width: 293px;
 }
 
 /* form */
