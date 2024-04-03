@@ -7,11 +7,14 @@
 }
 
 .footer_conteiner {
-    max-width: 1064px;
+    max-width: 1094px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .footer-section {
     display: flex;
+    flex-wrap: wrap;
 }
 .footer-section-collumn {
     display: flex;

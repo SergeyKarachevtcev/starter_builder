@@ -3,9 +3,10 @@ const slider = () => {
     const swiper = new Swiper('.swiper', {
         /* slides */
         slidesPerView: 1,
-        spaceBetween: 42,
+        spaceBetween: 35,
         // Optional parameters
-        freeMode: true,
+        /* loop: true, */
+        /*      freeMode: true, */
         breakpoints: {
             640: {
                 slidesPerView: 2,
@@ -17,7 +18,7 @@ const slider = () => {
             },
             1024: {
                 slidesPerView: 4,
-                spaceBetween: 40,
+                spaceBetween: 35,
             },
         },
         // Navigation arrows

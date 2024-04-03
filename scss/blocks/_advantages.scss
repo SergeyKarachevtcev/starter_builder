@@ -5,9 +5,7 @@
 .advantages-wrapper {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    align-items: center;
     gap: 40px;
-    flex-wrap: wrap;
 }
 .advantages-wrapper__block {
     display: flex;
@@ -15,6 +13,8 @@
     row-gap: 20px;
 }
 .advantages__title {
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 42px;
     line-height: 110%;
