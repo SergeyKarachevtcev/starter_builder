@@ -5,7 +5,6 @@ const slider = () => {
         slidesPerView: 1,
         spaceBetween: 42,
         // Optional parameters
-        loop: true,
         freeMode: true,
         breakpoints: {
             640: {
@@ -27,5 +26,8 @@ const slider = () => {
             prevEl: '#sliderPrew',
         },
     });
+    swiper.update();
+    return swiper;
 };
-export default slider;
+
+export { slider };

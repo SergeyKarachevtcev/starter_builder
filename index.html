@@ -68,12 +68,13 @@
                 <h2 class="product-title">Best Selling Product</h2>
                 <div class="product-tabs">
                     <div class="tabs-controls">
-                        <button class="tabs-controls_btn tabs-controls_btn--active">Chair</button>
-                        <button class="tabs-controls_btn">Beds</button>
-                        <button class="tabs-controls_btn">Sofa</button>
-                        <button class="tabs-controls_btn">Lamp</button>
+                        <button data-tab="chair" class="tabs-controls_btn tabs-controls_btn--active">Chair</button>
+                        <button data-tab="beds" class="tabs-controls_btn">Beds</button>
+                        <button data-tab="sofa" class="tabs-controls_btn">Sofa</button>
+                        <button data-tab="lamp" class="tabs-controls_btn">Lamp</button>
                     </div>
                 </div>
+
                 <div class="product-slider">
                     <!-- slider -->
                     <div class="slider">
@@ -82,7 +83,8 @@
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- cards -->
-                                <article class="product-card swiper-slide">
+                                <!-- Chair -->
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
                                     </div>
@@ -103,7 +105,7 @@
                                     </div>
                                 </article>
 
-                                <article class="product-card swiper-slide">
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-02.png" alt="chair-02" class="product-card-photo_img" width="217" height="255" />
                                     </div>
@@ -124,7 +126,7 @@
                                     </div>
                                 </article>
 
-                                <article class="product-card swiper-slide">
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
                                     </div>
@@ -145,7 +147,7 @@
                                     </div>
                                 </article>
 
-                                <article class="product-card swiper-slide">
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-03.png" alt="chair-03" class="product-card-photo_img" width="217" height="255" />
                                     </div>
@@ -166,7 +168,7 @@
                                     </div>
                                 </article>
 
-                                <article class="product-card swiper-slide">
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
                                     </div>
@@ -187,12 +189,396 @@
                                     </div>
                                 </article>
 
-                                <article class="product-card swiper-slide">
+                                <article data-tab-value="chair" class="product-card swiper-slide">
                                     <div class="product-card-photo">
                                         <img src="./img/slider/chair-04.png" alt="chair-04" class="product-card-photo_img" width="217" height="255" />
                                     </div>
                                     <div class="product-card-desc">
                                         <h3 class="product-card-desc__type">Chair</h3>
+                                        <p class="product-card-desc__title">Nyantuy Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>921</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Beds -->
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-02.png" alt="chair-02" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Baltsar Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star_half"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>299</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-03.png" alt="chair-03" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Anjay Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>519</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="beds" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-04.png" alt="chair-04" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Beds</h3>
+                                        <p class="product-card-desc__title">Nyantuy Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>921</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Sofa -->
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-02.png" alt="chair-02" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Baltsar Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star_half"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>299</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-03.png" alt="chair-03" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Anjay Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>519</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-04.png" alt="chair-04" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Sofa</h3>
+                                        <p class="product-card-desc__title">Nyantuy Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>921</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Lamp -->
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-02.png" alt="chair-02" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
+                                        <p class="product-card-desc__title">Baltsar Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star_half"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>299</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-03.png" alt="chair-03" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
+                                        <p class="product-card-desc__title">Anjay Chair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>519</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-01.png" alt="chair-01" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
+                                        <p class="product-card-desc__title">Sakarias Armchair</p>
+                                        <div class="product-card-desc-stars-wrapper">
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                            <div class="star"></div>
+                                        </div>
+                                        <div class="product-card-desc-wrapper">
+                                            <p class="product-card-desc__price"><span>$</span>392</p>
+                                            <button class="product-card-desc__btn">+</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="product-card swiper-slide">
+                                    <div class="product-card-photo">
+                                        <img src="./img/slider/chair-04.png" alt="chair-04" class="product-card-photo_img" width="217" height="255" />
+                                    </div>
+                                    <div class="product-card-desc">
+                                        <h3 class="product-card-desc__type">Lamp</h3>
                                         <p class="product-card-desc__title">Nyantuy Chair</p>
                                         <div class="product-card-desc-stars-wrapper">
                                             <div class="star"></div>
@@ -218,6 +604,7 @@
                         </button>
                     </div>
                 </div>
+
                 <a class="product-link">View All<span></span></a>
             </div>
         </section>
@@ -227,7 +614,9 @@
                 <section class="footer-section">
                     <div class="footer-section-collumn">
                         <img class="footer-section-collumn__logo" src="./img/footer/Panto.png" alt="logo" height="35" width="78" />
-                        <p class="footer-section-collumn_content footer-section-collumn_content__wrapper">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
+                        <p class="footer-section-collumn_content footer-section-collumn_content__wrapper">
+                            The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+                        </p>
                     </div>
                     <div class="footer-section-collumn">
                         <h4 class="footer-section-collumn__title">Services</h4>
