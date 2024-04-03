@@ -1,1 +1,1 @@
-(()=>{"use strict";new Swiper(".swiper",{slidesPerView:4,spaceBetween:42,loop:!0,navigation:{nextEl:"#sliberNext",prevEl:"#sliderPrew"}})})();
+(()=>{"use strict";new Swiper(".swiper",{slidesPerView:1,spaceBetween:42,loop:!0,freeMode:!0,breakpoints:{640:{slidesPerView:2,spaceBetween:20},768:{slidesPerView:3,spaceBetween:40},1024:{slidesPerView:4,spaceBetween:40}},navigation:{nextEl:"#sliberNext",prevEl:"#sliderPrew"}}),console.log("tabs")})();

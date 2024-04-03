@@ -340,6 +340,10 @@ body {
   font-family: var(--Gilroy-Regular);
 }
 
+.header-form__input {
+  width: 100%;
+}
+
 .header-form__btn {
   border-radius: 24px;
   padding: 11px;
